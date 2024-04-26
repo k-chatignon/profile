@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&family=Vidaloka&display=swap');
+@import url('https://use.fontawesome.com/releases/v6.1.2/css/all.css');
+
+@media (max-width: 960px) {
+  /* Pour un écran < 960px, cette classe CSS s'applique */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* Pour un écran < 720px, cette classe CSS s'applique */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* Pour un écran < 540px, cette classe CSS s'applique */
+  .container {
+    width: 300px;
+  }
+}
+
+@media (max-width: 300px) {
+  /* Pour un écran < 300px, cette classe CSS s'applique */
+  .container {
+    width: 150px;
+  }
+}
+
+body {
+  background-color: white;
+  color: rgb(50, 50, 50);
+  font-family: "Quicksand", sans-serif;
+  font-size: 16px;
+}
+
+h1, h2, h3 {
+  font-family: "Vidaloka", serif;
+  color: #3C6E71
+}
+
+h1 {
+  font-size: 40px;
+  margin-top: 50px
+    /* line-height: 2 */
+}
+
+h2 {
+  font-size: 32px;
+  line-height: 1.5
+}
+
+h3 {
+  font-size: 24px;
+  line-height: 1
+}
+
+a {
+  text-decoration: none;
+  color: #3C6E71
+}
+
+a:hover {
+  background-color: #3C6E71;
+  color: white
+}
+
+/* Custom design with classes */
+
+.img-circle {
+  border-radius: 50%;
+}
+
+.text-center {
+  text-align: center
+}
+
+.card-white {
+  background: white;
+  border-radius: 4px;
+  padding: 40px;
+  box-shadow: 0px 10px 30px rgba(0,0,0,.1);
+  width: 700px;
+  margin: 24px auto
+}
+
+.container {
+  /* width: 500px;   Définit la largeur */
+  margin: 0 auto; /* Définit automatiquement les marges à gauche/droite */
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px
+}
+
+.list-inline li {
+  display: inline-block;
+  padding: 0px 20px
+}
+
+.btn-blue {
+  background-color: #3C6E71;
+  color: white;
+  border-radius: 64px;
+  padding: 8px 16px;
+  border: 1px solid transparent;
+  font-weight: bold
+}
+
+.btn-blue:hover {
+  border: 1px solid #3C6E71;
+  border-radius: 64px;
+  color: #3C6E71;
+  background-color: white;
+  font-weight: bold
+}
+
+/* Ligne d'ajustement avec des id */
+
+#intro p {
+  margin-bottom: 32px;
+}
+
+#footer a {
+  font-size: 48px
+}
